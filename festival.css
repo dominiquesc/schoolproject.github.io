@@ -1,0 +1,117 @@
+.centerimage{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+#menubar{
+	background-color: coral;
+	color: #fff;
+	margin-right: 0;
+	margin-left: 50px;
+}
+
+#menubar ul{
+	padding: 0;
+	list-style-type: none;
+    overflow: hidden;
+}
+
+#menubar li{
+	display: inline-block;
+}
+
+#menubar a{
+	color: white;
+	text-decoration: none;
+	font-size: 19px;
+	padding: 14px 16px;
+	text-align: center;
+	display: block;
+}
+
+.Center{
+	text-align: center;
+}
+
+#centerlist{
+	text-align: center;
+}
+
+#centerlist ul{
+	list-style-type: none;
+}
+
+.Block{
+	float: left;
+	width: 30%;
+	display: inline;
+}
+
+.contentright{
+    width: 90%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contentright img {
+    margin-right: 15px;
+    float: left;
+}
+
+.contetleft{
+	width: 90%;
+	padding: 20px;
+	overflow:hidden;
+}
+
+.contentleft img{
+	margin-left: 15px;
+	float: right;
+}
+
+.timetable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table tr:nth-child(odd){
+   background-color: red;
+   color: blue;
+}
+
+
+.table.even tr:nth-child(even){
+	background-color: purple;
+	color: yellow;
+}
+
+.adressblocks{
+	width: 50%;
+	background-color: #c9ada1;
+	color: #9bc53d;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html{
+	background-color: #eae0cc;
+}
+
+#contentright{
+	width: 90%;
+	padding: 20px;
+	overflow:hidden;
+}
+
+#contentright img{
+	margin-left: 15px;
+	float: right;
+}
+
